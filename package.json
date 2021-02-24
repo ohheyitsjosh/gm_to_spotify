@@ -1,0 +1,29 @@
+{
+  "name": "gm_to_spotify",
+  "version": "1.0.0",
+  "description": "A node script to recreate google music playlists in spotify.",
+  "main": "gm_to_spotify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohheyitsjosh/gm_to_spotify.git"
+  },
+  "keywords": [
+    "spotify",
+    "node",
+    "google",
+    "music"
+  ],
+  "author": "Josh Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohheyitsjosh/gm_to_spotify/issues"
+  },
+  "homepage": "https://github.com/ohheyitsjosh/gm_to_spotify#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
