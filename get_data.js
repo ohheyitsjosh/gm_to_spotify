@@ -73,11 +73,3 @@ const readFileData = () => {
 const parsedFileData = readFileData();
 console.log(parsedFileData[0].playlistName);
 console.log(parsedFileData[0].trackData[5]);
-
-fs.writeFile('writeme.json', JSON.stringify(parsedFileData), (err) => { 
-    if (err) 
-      console.log(err); 
-    else { 
-      console.log("File written successfully\n"); 
-    } 
-  });
